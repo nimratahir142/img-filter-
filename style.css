@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+img{
+    width: 33%;
+    height: auto;
+    float: left;
+    max-width: 235px;
+    margin: 12px;
+    border: 3px solid whitesmoke;
+    border-radius: 8px;
+}
+.blur{
+    filter: blur(4px);
+    width="300px" height="300px"
+}
+.brightness{
+    filter: brightness(250%);
+    width="300px" height="300px"
+}
+.contrast{
+    filter: contrast(180%);
+    width="300px" height="300px"
+}
+.grayscyle{
+    filter: grayscale(100%);
+    width="300px" height="300px"
+}
+.hue-rotate{
+    filter: hue-rotate(180deg);
+    width="300px" height="300px"
+}
+.invert{
+    filter: invert(100%);
+    width="300px" height="300px"
+}
+.opaicty{
+    filter: opacity(55%);
+    width="300px" height="300px"
+}
+.satrature{
+    filter: saturate(7);
+    width="300px" height="300px"
+}
+.sepia{
+    filter: sepia(100%);
+    width="300px" height="300px"
+}
+.shadow{
+    filter: drop-shadow(8px 8px 10px green);
+    width="300px" height="300px"
+}
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    color: antiquewhite;
+    text-align: center;
+}
